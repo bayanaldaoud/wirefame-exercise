@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    
+}
+
+header {
+    background-color: rgb(106, 129, 111);
+    margin-bottom: 15px;
+}
+
+
+img {
+    margin: 15px;
+}
+
+
+li{
+    margin: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+footer {
+    background-color: rgb(113, 133, 118);
+    height: 150px;
+}
+
+
+li > div > p {
+    height: 350px;
+    overflow: scroll;
+    width: 400px;
+    text-align: left;
+}
+   
+section > ul > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    text-align: left;
+}
+
+button {
+    background-color: rgb(113, 133, 118);
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 350ms;
+}
+
+button:hover {
+  background-color: rgb(106, 154, 199);
+  color: white;
+}
+
